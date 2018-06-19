@@ -1,11 +1,16 @@
 import { ModuleWithProviders }  from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { SplashComponent } from './splash/splash.component';
+import { SearchComponent } from './search/search.component';
 
 const appRoutes: Routes = [
   {
     path: '',
     component: SplashComponent
+  },
+  {
+    path: 'search',
+    component: SearchComponent
   }
 ];
 
