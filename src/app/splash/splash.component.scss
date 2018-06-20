@@ -25,17 +25,9 @@ img {
       color: white;
     }
     a {
+      @include button;
       text-decoration: none;
-      background-color: transparent;
-      color: $white;
-      border: 3px solid white;
-      border-radius: 25px;
-      font-size: 1em;
-      padding: 15px 20px 20px 20px;
       animation: btnGlow 0.3s linear 8s;
-      &:active {
-        background-color: $white;
-        color: $darkgray;
       }
     }
     @keyframes btnGlow {
@@ -45,7 +37,6 @@ img {
       75% {transform:rotate(-10deg)}
       100% {}
     }
-  }
   .feather {
     position: absolute;
     top: -200px;
