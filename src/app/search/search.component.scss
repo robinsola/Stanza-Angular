@@ -14,6 +14,12 @@ img {
   }
 }
 
+.search {
+  img {
+    filter: none;
+  }
+}
+
 .navbar {
   margin: 10px 0;
   display: flex;
@@ -24,5 +30,40 @@ img {
     padding: 0 10px;
     border-left: 1px solid white;
     border-right: 1px solid white;
+  }
+}
+
+.form {
+  button {
+    @include button;
+    margin-top: 20px;
+  }
+  .form-group {
+    margin-top: 20px;
+  }
+  .form-group:first-of-type {
+    border: 2px solid  $mintblue;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.15);
+    width: 100%;
+    .radio {
+      width: 100%;
+      padding: 10px;
+      text-align: center;
+    }
+    label {
+      width: 100%;
+    }
+    span {
+      width: 100%;
+      padding: 10px;
+    }
+    input[type="radio"]:checked + span {
+      background-color: $mintblue;
+      color: $darkgray;
+    }
+    input[type="radio"] {
+      display: none;
+    }
   }
 }
