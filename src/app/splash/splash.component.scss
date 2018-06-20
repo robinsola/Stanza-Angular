@@ -20,12 +20,12 @@ img {
     position: absolute;
     top: 496px;
     p {
-      margin: 20px 0;
+      margin: 10px 0 50px 0;
       font-size: 1.2em;
       color: white;
     }
-    button {
-      cursor: pointer;
+    a {
+      text-decoration: none;
       background-color: transparent;
       color: $white;
       border: 3px solid white;
@@ -33,6 +33,10 @@ img {
       font-size: 1em;
       padding: 15px 20px 20px 20px;
       animation: btnGlow 0.3s linear 8s;
+      &:active {
+        background-color: $white;
+        color: $darkgray;
+      }
     }
     @keyframes btnGlow {
       0% {}
