@@ -49,12 +49,12 @@ img {
     background-color: rgba(255, 255, 255, 0.15);
     width: 100%;
     .radio {
-      width: 100%;
-      padding: 10px;
+      padding: 5px;
       text-align: center;
     }
     span {
-      padding: 10px 30px;
+      display: block;
+      padding: 5px 0;
     }
     input[type="radio"]:checked + span {
       background-color: $mintblue;
