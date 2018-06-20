@@ -27,15 +27,7 @@ img {
     a {
       @include button;
       text-decoration: none;
-      animation: btnGlow 0.3s linear 8s;
       }
-    }
-    @keyframes btnGlow {
-      0% {}
-      // 50% {box-shadow: 0 0 40px 5px white}
-      25% {transform:rotate(10deg)}
-      75% {transform:rotate(-10deg)}
-      100% {}
     }
   .feather {
     position: absolute;
