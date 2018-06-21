@@ -21,3 +21,18 @@ img {
     filter: none;
   }
 }
+
+.full-title {
+  align-self: flex-start;
+  margin: 40px;
+  h1 {
+    color: $mintblue;
+    font-size: 1.3em;
+  }
+}
+
+.full-poem {
+  align-self: flex-start;
+  margin: 0 40px;
+  line-height: 30px;
+}

@@ -18,13 +18,14 @@ img {
 
 .results {
   position: relative;
+  margin-top: 10px;
   h1 {
     text-align: center;
     font-size: 1.5em;
     color: $orange;
   }
   ul {
-    margin: 20px 40px;
+    margin: 20px;
     list-style: none;
     li {
       line-height: 30px;
@@ -36,12 +37,12 @@ img {
     }
     .arrows {
       position: absolute;
-      right: 50px;
+      right: 30px;
       font-size: 1.3em;
     }
     .title {
       color: $mintblue;
-      font-size: 1.3em;
+      font-size: 1.2em;
       font-weight: bold;
     }
   }
