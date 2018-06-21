@@ -7,6 +7,12 @@
   color: white;
 }
 
+@mixin navbar {
+  margin: 10px 0;
+  display: flex;
+  height: 70px;
+}
+
 @mixin navIcon {
   width: 40px;
   margin: 20px;
@@ -14,6 +20,13 @@
   &:active {
   filter: none;
   }
+}
+
+@mixin shuffleBtn {
+  margin: 0 20px;
+  padding: 0 10px;
+  border-left: 1px solid white;
+  border-right: 1px solid white;
 }
 
 @mixin button {
