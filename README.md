@@ -9,7 +9,7 @@ A mobile app to find poems, using PoemDB API. Search by theme, occasion, and/or 
 ### Installation
 * Clone project folder in terminal: `$ git clone` repository url
 * In terminal, run `$ npm install` in project folder home directory
-* In terminal, run `$ npm start` to view in browser
+* In terminal, run `$ npm serve -open` to view in browser
 
 ### Brainstorming
 mood:
