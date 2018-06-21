@@ -1,0 +1,23 @@
+@import './src/sass/mixins';
+@import './src/sass/variables';
+
+.wrapper {
+  @include layout;
+}
+
+img {
+ @include navIcon;
+}
+
+.navbar {
+  @include navbar;
+  .shuffle {
+    @include shuffleBtn;
+  }
+}
+
+.shuffle {
+  img {
+    filter: none;
+  }
+}

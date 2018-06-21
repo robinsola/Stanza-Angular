@@ -9,16 +9,16 @@ img {
   @include navIcon;
 }
 
-.search {
-  img {
-    filter: none;
-  }
-}
-
 .navbar {
   @include navbar;
   .shuffle {
     @include shuffleBtn;
+  }
+}
+
+.search {
+  img {
+    filter: none;
   }
 }
 
