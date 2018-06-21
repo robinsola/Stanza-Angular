@@ -27,6 +27,9 @@ img {
     a {
       @include button;
       text-decoration: none;
+      opacity: 0;
+      animation: enterBtn 0.5s linear 8s;
+      animation-fill-mode: forwards;
       }
     }
   .feather {
@@ -35,6 +38,10 @@ img {
     transform: rotate(-95deg);
     animation: featherDrop 8s ease-in-out 0s;
     animation-fill-mode: forwards;
+  }
+  @keyframes enterBtn {
+    0% {}
+    100% {opacity: 1}
   }
   @keyframes featherDrop {
     0% {}
