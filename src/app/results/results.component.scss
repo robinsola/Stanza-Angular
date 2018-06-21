@@ -6,12 +6,7 @@
 }
 
 img {
-  width: 40px;
-  margin: 20px;
-  filter: grayscale(100%) brightness(200%);
-  &:active {
-  filter: none;
-  }
+ @include navIcon;
 }
 
 .navbar {
@@ -26,25 +21,33 @@ img {
   }
 }
 
-.header {
-  font-size: 1.3em;
-  color: $orange;
-}
-
-ul {
-  margin: 20px 40px;
-  list-style: none;
-  li {
-    line-height: 30px;
-    padding: 30px 0;
-    border-bottom: 0.1px solid $mintblue;
+.results {
+  position: relative;
+  h1 {
+    text-align: center;
+    font-size: 1.5em;
+    color: $orange;
   }
-  li:first-of-type {
-    border-top: 0.1px solid $mintblue;
-  }
-  .title {
-    color: $mintblue;
-    font-size: 1.3em;
-    font-weight: bold;
+  ul {
+    margin: 20px 40px;
+    list-style: none;
+    li {
+      line-height: 30px;
+      padding: 30px 0;
+      border-bottom: 0.1px solid $mintblue;
+    }
+    li:first-of-type {
+      border-top: 0.1px solid $mintblue;
+    }
+    .arrows {
+      position: absolute;
+      right: 50px;
+      font-size: 1.3em;
+    }
+    .title {
+      color: $mintblue;
+      font-size: 1.3em;
+      font-weight: bold;
+    }
   }
 }
